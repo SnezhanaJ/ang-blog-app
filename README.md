@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.6.
 
+On this video we will see the ang-blog-app and ang-blog-dashboard.
+
+https://github.com/SnezhanaJ/ang-blog-app/assets/127696203/abcdef8b-f883-4c84-8964-83c9ab632554
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
