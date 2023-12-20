@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+:root{
+    --primary-color: #DDA0DD;
+    --secondary-color: #fae6fa;
+    --body-text-color: #7c5992;
+    --navbar-footer-color: #faf0fa;
+    
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font: size 20px;
+    columns: var(--body-text-color);
+}
+
+.bg-theme{
+  background-color: var(--primary-color);
+}

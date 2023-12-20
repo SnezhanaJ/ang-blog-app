@@ -1,0 +1,12 @@
+<div class="card mb-5 mt-5 pb-5 shadow-effect">
+    <div class="card-body" *ngIf="commentArray">
+        <h4 class="mt-3 mb-3">Comments</h4>
+        <div class="comment-box mt-3" *ngFor="let comment of commentArray" >
+            <h6 class="mb-0">{{comment.commentName}}</h6>
+            <small class="text-danger">{{comment.dateString}}</small>
+            <div class="mt-3 mb-3">
+                {{comment.comment}}
+            </div>
+        </div>
+    </div>
+</div>
